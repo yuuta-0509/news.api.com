@@ -1,10 +1,46 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Kay Pho Du", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
 }
 #all {
     width: 100vw;
     height: 100vh;
     position: fixed;
     background-color: green;
+}
+
+.newsContainer div {
+    border: solid 1px white;
+    margin: 50px;
+    padding: 50px;
+    box-shadow: 10px 5px 5px black;
+    background-color: lightseagreen;
+    transition: 0.5s;
+}
+.newsContainer div:hover{
+    margin: 30px;
+    transition: 0.5s;
+}
+section {
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+}
+a {
+    color: black;
+}
+a:hover{
+    color: white;
+}
+button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+input {
+    color: black;
 }
